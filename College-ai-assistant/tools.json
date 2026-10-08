@@ -1,0 +1,30 @@
+{
+    "tools": [
+        {
+            "name": "calculator",
+            "description": "Calculate attendance percentage and other numerical calculations.",
+            "parameters": {
+                "classes_attended": "number",
+                "total_classes": "number"
+            }
+        },
+        {
+            "name": "attendance",
+            "description": "Mark a student's attendance for a particular date and subject.",
+            "parameters": {
+                "student_id": "string",
+                "date": "string",
+                "subject": "string",
+                "status": "present or absent"
+            }
+        },
+        {
+            "name": "timetable",
+            "description": "Analyze a college timetable from PDF, DOCX or TXT documents.",
+            "parameters": {
+                "document": "string",
+                "question": "string"
+            }
+        }
+    ]
+}
